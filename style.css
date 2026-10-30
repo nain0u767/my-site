@@ -1,0 +1,49 @@
+body {
+  background: #f5eee5;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #493329;
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+}
+
+main {
+  padding-top: 60px;
+  min-height: 75vh;
+}
+
+h1 {
+  color: #493329;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: #fffaf4;
+  border: 1px solid #ddc9b6;
+}
+
+footer {
+  background: #493329;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 110px;
+}
+
+@media (max-width: 500px) {
+  .navbar .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main {
+    padding-top: 35px;
+  }
+}
